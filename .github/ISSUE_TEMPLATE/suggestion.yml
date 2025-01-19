@@ -1,0 +1,27 @@
+name: Enhancement
+description: When creating a suggestion, consider how it effects RP and the economy.
+labels: ["suggestion"]
+title: "Suggestion - TITLE HERE"
+body:
+  - type: input
+    id: reporter
+    attributes:
+      label: Reporter
+      description: Who is reporting this? Please include discord name.
+      placeholder: All In Alan (allinalan#0000)
+    validations:
+      required: true     
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Write a summary of what your suggestion is about.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why would your suggestion be a good change to the server?
+    validations:
+      required: true   

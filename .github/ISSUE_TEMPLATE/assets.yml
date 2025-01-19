@@ -1,0 +1,48 @@
+name: Asset Issues
+description: Report an issue with an asset (Clothing/MLO/Cars)
+labels: ["asset"]
+title: "Asset Issues - TITLE HERE"
+body:
+  - type: input
+    id: reporter
+    attributes:
+      label: Reporter
+      description: Who is reporting this? Please include discord name.
+      placeholder: John (John#0001)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Asset Type
+      description: What type of Asset is this for?
+      multiple: true
+      options:
+      - Clothing
+      - MLO
+      - Vehicle
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Write a short summary of what you are experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What are the expected results?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Videos
+      description: Provide any screenshots and/or videos demonstrating the issue being experienced.
+    validations:
+      required: false
+
+ 
