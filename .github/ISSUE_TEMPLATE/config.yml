@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Reckless RP Issue Tracker
-    url: https://github.com/TRecklessRP/airp-issue-tracker
+  - name: All In Roleplay Issue Tracker
+    url: https://github.com/TRecklessRP/airp-issue-tracker/issues
     about: If your Issue/Suggestion relates to assets (Such as clothing, cars, etc), please raise it here.
   - name: All In Roleplay Discord
     url: discord.gg/hRxuZFUzrn
